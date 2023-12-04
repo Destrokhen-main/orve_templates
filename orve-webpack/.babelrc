@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-react",
+      {
+        "pragma": "_Node",
+        "pragmaFrag": "_Fragment",
+        "throwIfNamespace": false
+      }
+    ]
+  ],
+  "plugins": [
+    "module:babel-orve-plugin"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vite",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-orve-plugin": "1.0.0",
+    "sass": "^1.57.1",
+    "vite": "^4.2.1",
+    "vite-plugin-babel": "^1.1.3"
+  },
+  "packageManager": "yarn@3.1.0",
+  "dependencies": {
+    "orve-rxjs": "1.0.0"
+  },
+  "resolutions": {
+    "orve-rxjs": "portal:/Users/vypyslar/Documents/orve-2",
+    "babel-orve-plugin": "portal:/Users/vypyslar/Documents/babel-config"
+  }
+}
